@@ -8,7 +8,10 @@
     }
 
     ul {
-        margin-bottom: 20%;
+        margin-bottom: 0%;
+        margin-top: 0;
+        margin-right:0;
+        margin-left: 0;
         padding:0;
     }
 
@@ -19,12 +22,7 @@
         margin-top: 0.9rem;
         color: #B1B1B1;
         list-style-type: none;
-        
     }
-    #content{
-        width: 100%;
-    }
-
 }
 
 /* Responsividade para Tablet */
@@ -38,6 +36,9 @@
 
     ul {
         margin-bottom: 20%;
+        margin-top: 0;
+        margin-right:0;
+        margin-left: 0;
         padding:0;
     }
 

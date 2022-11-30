@@ -29,8 +29,8 @@
     }
 
     #btnBusca {
-        width: 1.625rem;
-        height: 1.625rem;
+        width: 10%;
+        height: auto;
         align-self: center;
     }
     input {

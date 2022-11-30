@@ -6,7 +6,12 @@
 }
 /* Responsividade para desktop */
 @media screen and (min-width:1024px){
+    body{
+        width:100%;
+    }
+    
     nav {
+        width:95%;
         display: flex;
         flex-direction: row-reverse;
         gap: 1rem;
