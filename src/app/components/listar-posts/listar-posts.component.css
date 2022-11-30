@@ -7,6 +7,9 @@
 
 /* Responsividade para desktop */
 @media screen and (min-width:1024px){
+    #mobile{
+        display:none;
+    }
     body{
         margin: 2%;
         display: flex;
@@ -37,7 +40,71 @@
 }
 
 /* Responsividade para Tablet */
-@media screen and (min-width:768px) and (max-width:1023px){}
+@media screen and (min-width:768px) and (max-width:1023px){
+    #mobile{
+        display:none;
+    }
+    body{
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    app-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    aside {
+        width:20%;
+        justify-content: flex-start;
+        margin-left: 2%
+    }
+    app-artigo {
+        width:70%;
+        justify-content: center;
+        
+    }
+}
 
 /* Responsividade para Celulares */
-@media screen and (max-width:767px){}
+@media screen and (max-width:767px){    
+    aside{
+        display:none;
+    }
+    body{
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    app-header {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #mobile{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    app-artigo {
+        width:90%;
+    }
+}
