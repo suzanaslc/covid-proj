@@ -1,0 +1,176 @@
+/* Responsividade para desktop */
+@media screen and (min-width:1024px){
+    img{
+        width:100%;
+        height:auto;
+    }
+    .noticia {
+        margin-top: 1.375rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 0.938rem;
+    }
+
+    a{
+        font-size: 12px;
+        font-weight: 700;
+        color: #0092C4;    
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #B1B1B1;
+        margin-top: 0.938rem;
+        margin-bottom: 0.938rem;
+        max-width: 27.5rem;
+        max-width: 99ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        
+    }
+
+    h2{
+        font-size: 22px;
+        font-weight: 400;
+        color: #424242;
+        max-width: 54ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        
+    }
+
+    section {
+        display: flex;
+        width: 90%;
+        flex-direction:row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content:center;
+        margin-left: 4rem;
+    }
+
+    article {
+        width: 45%;
+        height: 20%;
+        border: 0.06rem solid #F5F5F5;
+        border-radius: 0.3rem;
+        box-shadow: 0px 3px 10px #ECECEC;
+    }
+}
+/* Responsividade para Tablet */
+@media screen and (min-width:768px) and (max-width:1023px){
+
+    img{
+        width:100%;
+        height:auto;
+    }
+
+    .noticia {
+        margin-top: 1.375rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 0.938rem;
+    }
+    
+    a{
+        font-size: 12px;
+        font-weight: 700;
+        color: #0092C4;    
+    }
+    
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #B1B1B1;
+        margin-top: 0.938rem;
+        margin-bottom: 0.938rem;
+        max-width: 27.5rem;
+        max-width: 99ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    
+    h2{
+        font-size: 22px;
+        font-weight: 400;
+        color: #424242;
+        max-width: 54ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    section {
+        width: 80%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    article {
+        width: 50%;
+        height: 30rem;
+        border: 0.06rem solid #F5F5F5;
+        border-radius: 0.3rem;
+        box-shadow: 0px 3px 10px #ECECEC;
+    }
+}
+
+/* Responsividade para Celulares */
+@media screen and (max-width:767px){
+    img{
+        width:100%;
+        height:auto;
+    }
+
+    .noticia {
+        margin-top: 1.375rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 0.938rem;
+    }
+    
+    a{
+        font-size: 12px;
+        font-style: bold;
+        color: #0092C4;    
+    }
+    
+    p {
+        font-size: 12px;
+        font-style: regular;
+        color: #B1B1B1;
+        margin-top: 0.938rem;
+        margin-bottom: 0.938rem;
+        
+    }
+    
+    h2{
+        font-size: 18px;
+        font-weight: 400;
+        color: #424242;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    
+    article {
+        width: 90%;
+        height: 16%;
+        border: 0.06rem solid #F5F5F5;
+        border-radius: 0.3rem;
+        box-shadow: 0px 3px 10px #ECECEC;
+    }
+}

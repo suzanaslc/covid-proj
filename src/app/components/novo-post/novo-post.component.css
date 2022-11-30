@@ -1,0 +1,198 @@
+* {
+    font-family: "Roboto", "sans-serif";
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Responsividade para desktop */
+@media screen and (min-width:1024px){
+    body {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    #content{
+        display: flex;
+        flex-direction:row;
+        margin-top: 3.125rem;
+        margin-bottom: 3.125rem;
+        margin-right:auto;
+        margin-left:auto;
+        justify-content: center;
+    }
+
+    #criar-post {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    header {
+        width: 100%;
+        text-align: center;
+        color: #424242;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    input, textarea {
+        border: 0.06rem solid #B1B1B1;
+        min-height:3rem;
+        border-radius: 0.3rem; 
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    textarea {
+        padding-top: 1rem;
+    }
+
+    .buttonClass {
+        flex-direction: reverse-row;
+        width: 10rem;
+        font-size:12px;
+        font-color: #424242;
+        color:#666666;
+        font-weight:500;
+        border: 0;
+        border-radius: 0.3rem; 
+        padding:0.6rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .buttonClass:hover {
+        background: linear-gradient(#e9e9e9, #f9f9f9);
+    }
+}
+
+/* Responsividade para Tablet */
+@media screen and (min-width:768px) and (max-width:1023px){
+    body {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    #content{
+        display: flex;
+        flex-direction:row;
+        margin-top: 3.125rem;
+        margin-bottom: 3.125rem;
+        margin-right:auto;
+        margin-left:auto;
+        justify-content: center;
+    }
+
+    #criar-post {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 90%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    header {
+        width: 100%;
+        text-align: center;
+        color: #424242;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    input, textarea {
+        border: 0.06rem solid #B1B1B1;
+        min-height:3rem;
+        border-radius: 0.3rem; 
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    textarea {
+        padding-top: 1rem;
+    }
+
+    .buttonClass {
+        flex-direction:row;
+        width: 10rem;
+        font-size:12px;
+        font-color: #424242;
+        color:#666666;
+        font-weight:500;
+        border: 0;
+        border-radius: 0.3rem; 
+        padding:0.6rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+/* Responsividade para Celulares */
+@media screen and (max-width:767px){
+    body {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    #content{
+        display: flex;
+        flex-direction:row;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        justify-content: center;
+    }
+
+    #criar-post {
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        
+
+    }
+
+    header {
+        width: 100%;
+        text-align: center;
+        color: #424242;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    input, textarea {
+        border: 0.06rem solid #B1B1B1;
+        min-height:3rem;
+        border-radius: 0.3rem; 
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    textarea {
+        padding-top: 1rem;
+    }
+
+    .buttonClass {
+        flex-direction:row;
+        width: 10rem;
+        font-size:12px;
+        font-color: #424242;
+        color:#666666;
+        font-weight:500;
+        border: 0;
+        border-radius: 0.3rem; 
+        padding:0.6rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}

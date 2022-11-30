@@ -1,0 +1,89 @@
+/* Responsividade para desktop */
+@media screen and (min-width:1024px){
+    h4 {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 1.3rem;
+        color: #424242;
+    }
+
+    #content{
+        width: 100%;
+    }
+
+    #divProcurar {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        height: 3rem;
+        border: 0.06rem solid #B1B1B1;
+        border-radius: 0.3rem; 
+        color: #fff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #txtBusca {
+        font-size:14px;
+        font-weight: 400;
+        color: #B1B1B1;
+    }
+
+    #btnBusca {
+        width: 1.625rem;
+        height: 1.625rem;
+        align-self: center;
+    }
+    input {
+        border: 0 none;
+        outline: none;
+    }
+}
+
+/* Responsividade para Tablet */
+@media screen and (min-width:768px) and (max-width:1023px){
+    h4 {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 1.3rem;
+        color: #424242;
+    }
+
+    #divProcurar {
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        height: 3rem;
+        border: 0.06rem solid #B1B1B1;
+        border-radius: 0.3rem; 
+        color: #fff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #txtBusca {
+        font-size:14px;
+        font-weight: 400;
+        color: #B1B1B1;
+        
+    }
+    
+    #btnBusca {
+        width: 1.625rem;
+        height: 1.625rem;
+        align-self: center;
+    
+    }
+    input {
+        border: 0 none;
+        outline: none;
+    }
+}
+
+/* Responsividade para Celulares */
+@media screen and (max-width:767px){
+    h4 {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 1.3rem;
+        color: #424242;
+    }
+}

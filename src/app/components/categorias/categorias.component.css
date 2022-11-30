@@ -1,0 +1,82 @@
+/* Responsividade para desktop */
+@media screen and (min-width:1024px){
+    h4 {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 13%;
+        color: #424242;
+    }
+
+    ul {
+        margin-bottom: 20%;
+        padding:0;
+    }
+
+    li {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0.9rem;
+        margin-top: 0.9rem;
+        color: #B1B1B1;
+        list-style-type: none;
+        
+    }
+    #content{
+        width: 100%;
+    }
+
+}
+
+/* Responsividade para Tablet */
+@media screen and (min-width:768px) and (max-width:1023px){
+    h4 {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 13%;
+        color: #424242;
+    }
+
+    ul {
+        margin-bottom: 20%;
+        padding:0;
+    }
+
+    li {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0.9rem;
+        margin-top: 0.9rem;
+        color: #B1B1B1;
+        list-style-type: none;
+    }
+    #content{
+        width: 100%;
+    }
+}
+
+/* Responsividade para Celulares */
+@media screen and (max-width:767px){
+    h4 {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 13%;
+        color: #424242;
+    }
+
+    ul {
+        margin-bottom: 20%;
+        padding:0;
+    }
+
+    li {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        color: #B1B1B1;
+        list-style-type: none;
+    }
+    #content{
+        width: 100%;
+    }
+}
