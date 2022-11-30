@@ -1,4 +1,5 @@
-# CovidProj
+# Projeto CovidProj
+# O projeto abre quando clicado em POSTS ou na rota http://localhost:4200/listar-post
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
 
