@@ -1,5 +1,6 @@
-# CovidProj
-
+# Projeto CovidProj
+# O projeto abre quando clicado em POSTS ou na rota http://localhost:4200/listar-post
+# O projeto apenas na fase 1 estático está disponível em https://drive.google.com/drive/folders/1L0Y9vhwIJgyOMRj2MKel5HYmXdZJ27hk
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
 
 ## Development server
